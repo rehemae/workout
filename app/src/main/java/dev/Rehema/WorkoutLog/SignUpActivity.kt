@@ -39,7 +39,7 @@ class SignUpActivity : AppCompatActivity() {
 //         intent=Intent(this,SignUpActivity::class.java)
 //        startActivity(intent)
         tvLogin.setOnClickListener {
-            val intent=Intent(this,SignUpActivity::class.java)
+            val intent=Intent(this,LoginActivity::class.java)
             startActivity(intent)
         }
              btnSignup.setOnClickListener {
