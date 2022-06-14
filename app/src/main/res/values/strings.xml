@@ -4,4 +4,7 @@
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? <u>sign up</u></string>
     <string name="password">Password</string>
     <string name="email">Email</string>
+    <string name="plan">plan</string>
+    <string name="track">track</string>
+    <string name="profile">profile</string>
 </resources>
