@@ -1,10 +1,8 @@
-package dev.Rehema.WorkoutLog
+package dev.Rehema.WorkoutLog.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.FragmentContainerView
-import com.google.android.material.bottomnavigation.BottomNavigationItemView
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import dev.Rehema.WorkoutLog.R
 import dev.Rehema.WorkoutLog.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
@@ -17,27 +15,24 @@ class HomeActivity : AppCompatActivity() {
         setupBottomNav()
     }
     fun handleclicks(){
-//        bnvHome=findViewById(R.id.bottom_navigation)
-//        fcvHome=findViewById(R.id.fcvHome)
     }
     fun setupBottomNav(){
         binding.bottomNavigation.setOnItemSelectedListener { item->
             when(item.itemId){
-                R.id.plan->{
+                R.id.plan ->{
                     supportFragmentManager.beginTransaction().replace(R.id.fcvHome, PlanFragment()).commit()
                     true
                 }
-                R.id.track->{
+                R.id.track ->{
                     supportFragmentManager.beginTransaction().replace(R.id.fcvHome, TrackFragment()).commit()
                     true
                 }
-                R.id.profile->{
+                R.id.profile ->{
                     supportFragmentManager.beginTransaction().replace(R.id.fcvHome, ProfileFragment()).commit()
                     true
                 }
                 else-> false
             }
         }
-
     }
 }

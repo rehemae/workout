@@ -1,13 +1,8 @@
-package dev.Rehema.WorkoutLog
+package dev.Rehema.WorkoutLog.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
-import com.google.android.material.textfield.TextInputEditText
-import com.google.android.material.textfield.TextInputLayout
-import dev.Rehema.WorkoutLog.databinding.ActivityHomeBinding
 import dev.Rehema.WorkoutLog.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {

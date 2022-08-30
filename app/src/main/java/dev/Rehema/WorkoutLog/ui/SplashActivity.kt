@@ -1,4 +1,4 @@
-package dev.Rehema.WorkoutLog
+package dev.Rehema.WorkoutLog.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
