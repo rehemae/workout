@@ -1,4 +1,4 @@
-package dev.Rehema.WorkoutLog
+package dev.Rehema.WorkoutLog.api
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
